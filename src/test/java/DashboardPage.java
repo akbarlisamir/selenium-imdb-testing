@@ -15,9 +15,7 @@ import org.openqa.selenium.NoSuchElementException;
 
 class DashboardPage extends PageBase {
 
-    // private By mainCardBy = By.xpath("//div[@class='Card-content']/div/div/h2/span");
     private By userDivBy = By.xpath("//div[@class='ipc-button__text']/span[@class='imdb-header__account-toggle--logged-in imdb-header__accountmenu-toggle navbar__user-name navbar__user-menu-toggle__name navbar__user-menu-toggle--desktop']");
-    // private By yourActivityUserDivBy = By.xpath();
     private By usernameButtonBy = By.xpath("//span[@class='imdb-header__account-toggle--logged-in imdb-header__accountmenu-toggle navbar__user-name navbar__user-menu-toggle__name navbar__user-menu-toggle--desktop']"); 
     private By logoutButtonBy = By.xpath("//a[@class='ipc-list__item imdb-header-account-menu__sign-out']");
     private By accountSettingsButtonBy = By.xpath("//ul[@class='ipc-list imdb-header__account-menu ipc-list--baseAlt']/a[position()=6]");

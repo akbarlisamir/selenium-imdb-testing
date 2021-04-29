@@ -25,7 +25,6 @@ class PersonalDetails extends PageBase {
 
     public PersonalDetails setGender(int index) {
         Select gS = new Select(this.waitAndReturnElement(genderSelectBy));
-        // gS.selectByValue(str);
         gS.selectByIndex(index);
         this.waitAndReturnElement(submitButtonBy).click();
 

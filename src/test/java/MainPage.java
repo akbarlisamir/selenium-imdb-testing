@@ -14,8 +14,6 @@ import org.openqa.selenium.NoSuchElementException;
 
 class MainPage extends PageBase {
 
-    //private By loginMenuButtonBy = By.className("HeaderWidget-loginButton");
-    
     private By signInButtonBy = By.xpath("//a[@class='ipc-button ipc-button--single-padding ipc-button--center-align-content ipc-button--default-height ipc-button--core-baseAlt ipc-button--theme-baseAlt ipc-button--on-textPrimary ipc-text-button imdb-header__signin-text']/div[@class='ipc-button__text']");
     private By signInWithIMDBButtonBy = By.xpath("//a[@class='list-group-item ']/span[@class='auth-provider-text']");
     
